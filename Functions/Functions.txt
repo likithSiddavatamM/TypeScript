@@ -1,0 +1,30 @@
+Functions
+
+Function Declaration:
+    *In TypeScript, you can declare a function with typed parameters and a typed return value.
+    *This ensures that only the correct types of arguments are passed, and the function returns a predictable type.
+
+Function Expressions:
+    *You can assign a function to a variable.
+    *The variable's type can either be inferred by TypeScript or explicitly declared.
+
+Optional Parameters:
+    *Optional parameters are specified using a ?.
+    *These parameters do not need to be provided when the function is called.
+    *However, all optional parameters must come after required parameters.
+
+Default Parameters:
+    *Similar to optional parameters, default parameters allow you to define a value that will be used if the argument is not provided during a function call.
+
+Rest Parameters:
+    *Rest parameters allow a function to accept an indefinite number of arguments as an array.
+    *This is useful when the exact number of arguments is not known in advance.
+
+Return Types:
+    *You can explicitly define the return type of a function.
+    *If you don’t define it, TypeScript will infer it based on the return statement.
+
+Void and Never:
+
+    ->void: Used when a function does not return any value.
+    ->never: Used for functions that never return.
