@@ -34,9 +34,6 @@
     let direction: 'up' | 'down';   // literal type
     direction = 'up';
 
-    let add: (a: number, b: number) => number;  // function type
-    add = (x, y) => x + y;
-
     function error(message: string): never {   // never
     throw new Error(message);
     }
