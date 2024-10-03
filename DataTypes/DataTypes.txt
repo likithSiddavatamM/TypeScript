@@ -1,0 +1,57 @@
+1. Primitive Types:
+
+    -> ->number: Represents numeric values (both integers and floating points).
+
+    -> ->string: Represents text values.
+
+    -> ->boolean: Represents true/false values.
+
+    -> ->null and undefined: Represent the absence of a value.
+
+
+
+2. Special Types:
+
+    ->any: A type that can hold any type of value. It disables type checking.
+
+    ->unknown: Requires type checking before performing operations.
+
+    ->void: Represents the absence of a type, used for functions that don't return anything.
+
+
+
+3. Complex Types:
+
+    ->array: A collection of values of a particular type.
+
+    ->tuple: A fixed-length array where each element can have a different type.
+
+    ->enum: A set of named constants.
+
+
+
+4. Object Types:
+
+    ->object: Represents non-primitive types.
+
+
+
+5. Union and Intersection Types:
+
+    ->Union: A variable can hold one of several types.
+
+    ->Intersection: Combines multiple types into one.
+
+
+
+6. Advanced Types:
+
+    ->Type Aliases: Create custom type names for unions or complex types.
+
+    ->Literal Types: Restrict a variable to specific values.
+
+    ->Function Types: Define the types of inputs and outputs for functions.
+
+    ->never: For functions that never return or throw an error.
+
+    ->readonly: Makes arrays or object properties immutable.
