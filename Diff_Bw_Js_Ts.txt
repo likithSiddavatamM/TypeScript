@@ -1,0 +1,26 @@
+1. Type System
+    JavaScript:
+    *Dynamically typed. Types are determined at runtime, which can lead to runtime errors if a variable is not used as expected.
+    TypeScript:
+    *Statically typed. You can explicitly declare types, and type checks are performed at compile time, allowing for early detection of errors.
+2. Syntax and Features
+    JavaScript:
+    *Uses standard ES5/ES6 syntax. It supports features like functions, objects, and ES6 classes, but lacks some advanced features.
+    TypeScript:
+    *Superset of JavaScript that includes all JavaScript features plus additional features like interfaces, enums, generics, and more robust support for modules.
+3. Compilation
+    JavaScript:
+    *Interpreted language that runs directly in the browser or on the server (Node.js) without a separate compilation step.
+    TypeScript:
+    *Must be transpiled (compiled) into JavaScript before it can run. This adds an extra build step in the development process.
+
+6. Community and Ecosystem
+    JavaScript:
+    *Has a larger and more established ecosystem with a vast number of libraries and frameworks (like React, Angular, Vue.js).
+    TypeScript:
+    *Growing in popularity, especially in large-scale applications. Many modern JavaScript frameworks and libraries (like Angular, React, and Vue) have embraced TypeScript.
+7. Error Handling
+    JavaScript:
+    *Errors are caught at runtime, which can lead to debugging challenges.
+    TypeScript:
+    *Many errors can be caught during the compilation process, making it easier to identify and fix issues before the code runs.
