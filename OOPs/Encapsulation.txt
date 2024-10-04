@@ -1,0 +1,11 @@
+Encapsulation:
+
+*It is the concept of wrapping data and methods that operate on the data into a single unit or class.
+*The key idea is to restrict direct access to some of the object’s components and only expose what is necessary.
+*This is achieved using access modifiers like private, protected, and public to control how data is accessed and modified.
+
+Usage:
+
+*Use private for critical data: Hide fields that shouldn’t be accessed or modified outside the class, like sensitive or critical information.
+*Use protected carefully: Allow subclasses to access members that they may need to override or modify, but don’t expose them to other external classes.
+*Provide methods for controlled access: Always use getters and setters for read/write access to private fields when necessary, and add validation or transformation logic as needed.
