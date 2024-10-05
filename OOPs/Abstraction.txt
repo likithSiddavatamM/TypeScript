@@ -1,0 +1,7 @@
+Abstraction:
+
+*Abstraction is one of the fundamental principles of Object-Oriented Programming (OOP), alongside encapsulation, inheritance, and polymorphism.
+*It helps you define the structure of an application without revealing the implementation details, making the code easier to manage and scale.
+*Abstraction in TypeScript is mainly achieved using interfaces and abstract classes.
+
+
