@@ -1,0 +1,16 @@
+Polymorphism:
+
+*Polymorphism is achieved through method overloading, method overriding and the use of interfaces to achieve dynamic behavior.
+
+-> Compile-time polymorphism:
+*Compile-time polymorphism is achieved in TypeScript through method overloading.
+*While TypeScript doesn't have method overloading in the traditional sense like Java, you can define multiple function signatures for a single method or function.
+*This is done using function overloading.
+
+-> Run-time polymorphism:
+*Run-time polymorphism is achieved using method overriding.
+*This occurs when a subclass provides a specific implementation for a method that is already defined in its parent class.
+*The method signature must remain the same in both the parent and child classes.
+
+
+
