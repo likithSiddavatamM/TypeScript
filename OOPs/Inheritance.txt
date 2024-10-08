@@ -1,0 +1,16 @@
+Single Inheritance:
+    *A class inherits from one parent class using the extends keyword. This is the most basic form of inheritance.
+
+Multiple Inheritance:
+    *A class can inherit from multiple parent classes.
+    *However, TypeScript does not support multiple inheritance directly instead, TypeScript uses mixins to achieve this behavior.(Diamond problem)
+
+Multilevel Inheritance:
+    *A class is derived from another class, which is also derived from another class, forming a chain of inheritance.
+
+Hierarchical Inheritance:
+    *Multiple classes inherit from a single parent class.
+
+Hybrid Inheritance:
+    *A combination of multiple types of inheritance.
+    *Since TypeScript doesn't support multiple inheritance, mixins are used to simulate hybrid inheritance where needed.
